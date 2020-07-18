@@ -1,0 +1,6 @@
+package pro.mahdi
+
+import io.quarkus.test.junit.NativeImageTest
+
+@NativeImageTest
+class NativeExampleResourceIT : ExampleResourceTest()
